@@ -8,6 +8,7 @@ sudo apt-get update
 
 printf "${GREENCOLOR}Adding certbot PPA ${NC} \n\n"
 
+apt-get install software-properties-common python-software-properties
 sudo LC_ALL=en_US.UTF-8 add-apt-repository ppa:certbot/certbot -y
 sudo apt-get update
 
